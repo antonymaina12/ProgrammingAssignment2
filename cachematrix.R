@@ -1,4 +1,7 @@
 ##creating the makeCacheMatrix
+##the function is mearnt to : 
+#set the value of the inverse
+#get the value of the inverse
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -16,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
        getinverse = getinverse)
 }
 
-
+##the functon is set to:
+# to check if the vector x is an inverse matrix
+#it first checks if the value is already cached the if not it computes the data to find out
 
 cacheSolve <- function(x, ...) {
   i <- x$getinverse()
